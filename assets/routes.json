@@ -1,0 +1,83 @@
+[
+  {
+    "index":0,
+    "name": "Plaza ~ Crystal Cave v.v",
+    "departure": {
+      "name": "Plaza",
+      "googleMapLink": "https://goo.gl/maps/rYNnErbGEALxZjEV6"
+    },
+    "destination": {
+      "name": "Crystal Cave",
+      "googleMapLink": "https://goo.gl/maps/gGx7aMq21dG9h4VM6"
+    },
+    "googleMapLink": "https://goo.gl/maps/2dvYJHgS19yPkvoi8",
+    "validated": true,
+    "note": "",
+    "passingPoints": [
+      {
+        "name": "LEO Hotel"
+      },
+      {
+        "name": "PIA Chapis"
+      }
+    ]
+  },
+  {
+    "index":1,
+    "name": "Plaza ~ BGH Campo Sioco v.v",
+    "departure": {
+      "name": "Plaza",
+      "googleMapLink": "https://goo.gl/maps/WVukNtd4vGDBBH579"
+    },
+    "destination": {
+      "name": "BGH Campo Sioco",
+      "googleMapLink": "https://goo.gl/maps/a6c83KzqGo26Ug7c7"
+    },
+    "googleMapLink": "https://goo.gl/maps/iTPNpRPZ8VmiitJCA",
+    "validated": false,
+    "note": "This jeep has two destinations after LEO hotel, author hasn't figured out how to get to the specific one 🤷‍",
+    "passingPoints": [
+      {
+        "name": "LEO Hotel"
+      }
+    ]
+  },
+  {
+    "index":2,
+    "name": "Plaza ~ Mine View v.v",
+    "departure": {
+      "name": "Plaza",
+      "googleMapLink": "https://goo.gl/maps/WVukNtd4vGDBBH579"
+    },
+    "destination": {
+      "name": "BGH Campo Sioco",
+      "googleMapLink": "https://goo.gl/maps/a6c83KzqGo26Ug7c7"
+    },
+    "googleMapLink": "https://goo.gl/maps/iTPNpRPZ8VmiitJCA",
+    "validated": false,
+    "passingPoints": [
+      {
+        "name": "PIA Main Campus"
+      }
+    ]
+  },
+  {
+    "index":3,
+    "name": "Plaza ~ Quezon Hill v.v",
+    "departure": {
+      "name": "Plaza",
+      "googleMapLink": "https://goo.gl/maps/WVukNtd4vGDBBH579"
+    },
+    "destination": {
+      "name": "BGH Campo Sioco",
+      "googleMapLink": "https://goo.gl/maps/a6c83KzqGo26Ug7c7"
+    },
+    "googleMapLink": "https://goo.gl/maps/iTPNpRPZ8VmiitJCA",
+    "validated": false,
+    "passingPoints": [
+      {
+        "name": "Monol"
+      }
+    ]
+  }
+]

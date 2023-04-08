@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "validated": true,
+    "note": "This jeep has two destinations after LEO hotel, author hasn't figured out how to get to the specific one 🤷‍",
+    "name": "Plaza ~ BGH Campo Sioco v.v",
+    "passingPoints": [
+      {
+        "name": "BGH Campo Sioco Terminal"
+      },{
+        "name": "Social Security System - Baguio"
+      },
+      {
+        "name": "LEO Hotel"
+      },
+      {
+        "name": "Roxas National High School"
+      },
+      {
+        "name": "Santo Rosario Barangay Hall"
+      }
+    ]
+  },{
+  "index": 1,
+  "validated": true,
+  "name": "Plaza ~ Crystal Cave v.v",
+  "passingPoints": [
+    {
+      "name": "Crystal Cave Jeepney Station"
+    },{
+      "name": "Social Security System - Baguio"
+    },
+    {
+      "name": "LEO Hotel"
+    },
+    {
+      "name": "JHANZJOSEPH HOUSE RENTALS"
+    }]},{
+      "index": 2,
+      "validated": false,
+      "name": "Plaza ~ Mines view v.v",
+      "passingPoints": [
+        {
+          "name": "Mines view jeepney terminal"
+        },{
+          "name": "Wright Park"
+        },
+        {
+          "name": "Pines International Academy"
+        },
+        {
+          "name": "Mines View Park"
+        }
+  ]
+
+    }
+]
+
