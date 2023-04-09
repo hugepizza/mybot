@@ -83,8 +83,12 @@ func main() {
 					continue
 				}
 				msg := tgbotapi.NewMessage(update.CallbackQuery.Message.Chat.ID, routes[indexes[0]].Format())
-				if !routes[indexes[0]].Validated {
-					msg.ReplyMarkup = assembleVerifyKeyboard(routes[indexes[0]])
+				for _, route := range routes {
+					if route.Index == indexes[0] {
+						if !route.Validated {
+							msg.ReplyMarkup = assembleVerifyKeyboard(routes[indexes[0]])
+						}
+					}
 				}
 				bot.Send(msg)
 			case CallbackTypePointKey: // return a route list keyboard
