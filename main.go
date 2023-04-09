@@ -29,7 +29,6 @@ func main() {
 		routes []*Route
 		err    error
 	)
-	// 6042208399:AAG4pKXcYouzaEvPILNTHqoGXK5pz3jaoD0
 	db, err := sql.Open("sqlite3", "mango.sqlite")
 	if err != nil {
 		panic("failed to load sqlite3 database")
